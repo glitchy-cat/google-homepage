@@ -12,17 +12,21 @@ a:hover {
     text-decoration: underline;
 }
 
-a {
+.header-link {
     text-decoration: none;
     color: #222;
+    padding: 15px;
 }
 header {
     position: fixed;
     top: 0; 
     width: 100%;
     display: inline-block;
-    margin: 15px;
     padding: 5px;
+}
+.ftr-link {
+    text-decoration: none;
+    color: #70757a;
 }
 
 button {
@@ -60,11 +64,16 @@ button:hover {
 .button-container {
     justify-items: center;
 }
-    /* GOOGLE logo */
+    /* Image settings */
 .logo {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+}
+
+#leaf {
+    height: 14px;
+    margin-right: 6px;
 }
 
 .search-bar {
@@ -74,9 +83,18 @@ button:hover {
     height: 44px;
 }
 footer {
+    background-color: #f8f9fa;
+    color: #70757a;
     display: flex;
     position: fixed;
+    width: 100%;
     bottom: 0;
     justify-content: space-between;
-    padding: 20px;
+    align-items: center;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.footer-end {
+    padding: 15px;
 }
